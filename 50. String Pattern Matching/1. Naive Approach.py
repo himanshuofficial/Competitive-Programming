@@ -10,7 +10,7 @@ def count_occ(inp_str,pattern):
 
         if inp_str[i] == pattern[0]:
             temp = i
-            while j < m:
+            while j < m:ff
 
                 if inp_str[temp] == pattern[j]:
                     temp+=1
